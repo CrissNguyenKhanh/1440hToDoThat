@@ -1,0 +1,229 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+.bg-cars{
+    background-image: url(image/nenlopxe-5.jpg);
+    background-size: auto;
+    border-color:rgb(0, 153, 255);
+    border-width: 1px;
+    border-radius: 0;
+    padding: 2px;
+}
+.bg-cars:hover{
+    box-shadow: 2px 3px 3px 3px  #3c3c3cbb;   
+}
+.bg-tralvel{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 4px  #000000;  
+}
+.bg-tralvel-1{
+    box-shadow: 0px 0px 2px 2px  rgb(0, 0, 0);  
+}
+.bg-nenlopxe{
+    box-shadow: 0px 0px 3px 1px lightblue inset;
+    background-image: url(image/nenvangtrang.jpg);
+    background-size: auto;
+}   
+.bg-nenlopxe-2{
+    background-image: url(image/nentrangxam-2.png);
+    background-color: rgb(0, 0, 0);
+    background-size: auto;
+}  
+.bg-nenlopxe-1{
+    background-image: url(image/nenlopxe-4.jpg);
+    background-color: rgba(0, 255, 255, 0.107);
+}
+.endtrang{
+    display: none;
+}
+.control-list i  {
+    color: rgb(214, 129, 0) ;
+}
+.control-list .i-check  {
+    color:  rgb(59, 185, 0);    ;
+}
+.control-list:hover >.endtrang  {
+    display: block;
+}
+.search-hide{
+    display: none;
+}
+@media screen and (max-width:989px ) {
+    .res-hide{
+        display: none;
+    }
+    .search-hide{
+        display: block;
+        color: white;
+    }
+}
+/* cái này là popup */
+.img-car{
+    padding-block: 0px;
+    background-color: white;
+    border-radius: 0;
+}
+.img-car:hover{
+    padding: 7px;
+}
+
+#popup-10 {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background: #000000e2;
+    border: 1px solid #00000078;
+    padding: 200px;
+    z-index: 999;
+}
+
+#popup-11 {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background: #000000e2;
+    border: 1px solid #00000078;
+    padding: 200px;
+    z-index: 999;
+}
+#popup-12 {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background: #000000e2;
+    border: 1px solid #00000078;
+    padding: 200px;
+    z-index: 999;
+}
+#popup-13 {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background: #000000e2;
+    border: 1px solid #00000078;
+    padding: 200px;
+    z-index: 999;
+}
+#popup-14 {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background: #000000e2;
+    border: 1px solid #00000078;
+    padding: 200px;
+    z-index: 999;
+}
+#popup-15 {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background: #000000e2;
+    border: 1px solid #00000078;
+    padding: 200px;
+    z-index: 999;
+}
+#popup-16 {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background: #000000e2;
+    border: 1px solid #00000078;
+    padding: 200px;
+    z-index: 999;
+}
+#popup-17 {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background: #000000e2;
+    border: 1px solid #00000078;
+    padding: 200px;
+    z-index: 999;
+}
+#popup-18 {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background: #000000e2;
+    border: 1px solid #00000078;
+    padding: 200px;
+    z-index: 999;
+}
+
+#popup-19 {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background: #000000e2;
+    border: 1px solid #00000078;
+    padding: 200px;
+    z-index: 999;
+}
+#popup-20 {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background: #000000e2;
+    border: 1px solid #00000078;
+    padding: 200px;
+    z-index: 999;
+}
+#popup-21 {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background: #000000e2;
+    border: 1px solid #00000078;
+    padding: 200px;
+    z-index: 999;
+}
+#popup-22 {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background: #000000e2;
+    border: 1px solid #00000078;
+    padding: 200px;
+    z-index: 999;
+}
+#popup-23 {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background: #000000e2;
+    border: 1px solid #00000078;
+    padding: 200px;
+    z-index: 999;
+}
+
+.popup-content {
+    text-align: center;    
+}
+.scroll-content {
+    margin-top: 30px;
+    height: 560px; /* Điều chỉnh chiều cao theo ý muốn */
+    width: 1350px;
+    overflow-y: auto; /* Tạo thanh cuộn dọc */
+}
+.show-scrollbar {
+    overflow-y: auto;
+}
+.hidden {
+    display: none;
+}

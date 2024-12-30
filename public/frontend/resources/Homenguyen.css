@@ -1,0 +1,580 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --back-color: rgba(243, 254, 44, 0.852);
+  --header-color: rgba(2, 2, 68, 0);
+}
+
+#address:hover {
+  background-color: #232323f7;
+  color: #ffffff;
+  padding: 4%;
+  padding-left: 11%;
+}
+
+#address {
+  color: #000000;
+  padding: 3%;
+  padding-left: 10%;
+}
+
+.nav-item a span:hover {
+  background-color: rgba(108, 117, 125);
+  color: rgb(15, 6, 6);
+  box-shadow: 0px 0px 15px 15px rgba(108, 117, 125);
+}
+#menu:hover {
+  background-color: none;
+  color: none;
+  box-shadow: none;
+}
+.carousel-control-next-icon {
+  background-color: rgb(0, 0, 0);
+  padding: 25px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-radius: 10%;
+}
+.carousel-control-prev-icon {
+  background-color: rgb(0, 0, 0);
+  padding: 25px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-radius: 10%;
+}
+.carousel-control-next-icon:hover {
+  background-color: rgb(0, 0, 0);
+  padding: 30px;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  box-shadow: 0px 0px 2px 3px rgb(255, 255, 255);
+}
+.carousel-control-prev-icon:hover {
+  background-color: rgb(0, 0, 0);
+  padding: 30px;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  box-shadow: 0px 0px 2px 3px rgb(255, 255, 255);
+}
+/* h2, h3{
+    color: black;
+} */
+#CEO {
+  font-size: 300%;
+  color: #ffffff;
+  border-radius: 100%;
+  box-shadow: 0px 0px 40px 20px hsl(0, 0%, 100%);
+}
+.font-text {
+}
+.border-secondary-color {
+  background-color: rgba(243, 254, 44, 0.852);
+}
+.hover-allcar:hover {
+  padding: 0%;
+  margin: 0%;
+  background-color: rgba(255, 255, 96, 0.201);
+}
+.btn-allcar:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.685);
+}
+.nen-profile {
+  background-color: rgba(255, 255, 255, 0.028);
+}
+.bg-vienvang {
+  background: url(/Doan-oto-1/Doan-Web-Oto-Cuoiki/image/);
+  background-size: cover;
+}
+/* allcar */
+.bg-allcar {
+  background-color: rgb(255, 221, 0);
+}
+.bg-cars {
+  background-size: auto;
+}
+
+.bg-cars:hover {
+  box-shadow: 2px 3px 3px 3px #3c3c3cbb;
+}
+.bg-nenlopxe {
+  background-size: cover;
+}
+.bg-nenlopxe-1 {
+  background-image: url(image/nenlopxe-4.jpg);
+  background-size: auto;
+}
+.bg-nenlopxe-2 {
+  background-image: url(image/nenlopxe-2.jpg);
+  background-size: auto;
+}
+.bg-nenlopxe-3 {
+  background-image: url(image/nentrangxam-2.png);
+  background-color: rgba(0, 255, 255, 0.107);
+  background-size: auto;
+}
+.text-price {
+  color: rgb(150, 65, 0);
+}
+.bg-listcars-1 {
+  background-color: #9f9f9f;
+}
+.bg-listcars {
+  background-color: #a2836e;
+}
+.endtrang {
+  display: none;
+}
+.control-list i {
+  color: rgb(214, 129, 0);
+}
+.control-list .i-check {
+  color: rgb(0, 122, 6);
+}
+.control-list:hover > .endtrang {
+  display: block;
+}
+.bg-border-bottom {
+  border-bottom: 1px solid red;
+}
+.text-allcars {
+  color: mintcream;
+}
+.btn-buy {
+  background-color: rgb(255, 255, 5);
+}
+.btn-buy:hover {
+  background-color: rgb(255, 209, 5);
+  box-shadow: 0 0 3px 5px rgba(255, 234, 5, 0.553);
+}
+.image-shadow {
+  box-shadow: 5px 5px 5px 3px #000000;
+}
+.bg-tralvel {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px 4px #000000;
+}
+.search-hide {
+  display: none;
+}
+.res-hide-1 {
+  display: none;
+}
+@media screen and (max-width: 995px) {
+  .res-hide {
+    display: none;
+  }
+  .search-hide {
+    display: block;
+    color: white;
+  }
+  .res-block {
+    display: block;
+  }
+}
+/* cái này là popup1 event ok */
+.hidden {
+  display: none;
+}
+
+#popup {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #00000058;
+  border: 1px solid #00000017;
+  padding: 200px;
+  z-index: 999;
+}
+#popup-2 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #00000058;
+  border: 1px solid #00000017;
+  padding: 200px;
+  z-index: 999;
+}
+#popup-3 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #00000058;
+  border: 1px solid #00000017;
+  padding: 200px;
+  z-index: 999;
+}
+
+.popup-content {
+  text-align: center;
+}
+.scroll-content {
+  height: 550px; /* Điều chỉnh chiều cao theo ý muốn */
+  width: 1450px;
+  overflow-y: auto; /* Tạo thanh cuộn dọc */
+}
+.show-scrollbar {
+  overflow-y: auto;
+}
+.run {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 125px;
+  background-color: #ff010100;
+  text-align: center;
+  padding: 0;
+}
+.animated-text {
+  animation: move 7s infinite linear;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(-45%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* 
+Cái này là của list blogg
+*/
+
+:root {
+  /**
+     * colors
+     */
+
+  --alice-blue-1: hsl(216, 38%, 95%);
+  --alice-blue-2: hsl(216, 75%, 97%);
+  --alice-blue-3: hsl(216, 38%, 95%);
+  --independence: hsl(219, 21%, 39%);
+  --eerie-black: hsl(210, 11%, 15%);
+  --space-cadet: hsl(240, 22%, 25%);
+  --manatee: hsl(30, 20%, 18%);
+  --white: hsl(0, 0%, 100%);
+
+  --gradient: linear-gradient(to top, var(--alice-blue-2), var(--alice-blue-3));
+
+  /**
+     * typography
+     */
+
+  --ff-nunito: "Nunito", sans-serif;
+  --ff-open-sans: "Open Sans", sans-serif;
+
+  --fs-1: 2.125rem;
+  --fs-2: 1.875rem;
+  --fs-3: 1.5rem;
+  --fs-4: 1.375rem;
+  --fs-5: 1.125rem;
+  --fs-6: 0.875rem;
+  --fs-7: 0.625rem;
+
+  --fw-400: 400;
+  --fw-600: 600;
+
+  /**
+     * transition
+     */
+
+  --transition: 0.5s ease;
+
+  /**
+     * spacing
+     */
+
+  --section-padding: 50px;
+
+  /**
+     * radius
+     */
+
+  --radius-10: 10px;
+  --radius-14: 14px;
+  --radius-18: 18px;
+}
+
+/*-----------------------------------*\
+    #RESET
+  \*-----------------------------------*/
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+img,
+span,
+label,
+input,
+button,
+ion-icon {
+  display: block;
+}
+
+button,
+input {
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+}
+
+ion-icon {
+  pointer-events: none;
+}
+
+html {
+  font-family: var(--ff-open-sans);
+  color: var(--eerie-black);
+  font-size: 1rem;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--alice-blue-1);
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsla(219, 14%, 60%, 0.3);
+  border: 2px solid var(--white);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsla(219, 14%, 60%, 0.5);
+}
+
+/*-----------------------------------*\
+    #REUSED STYLE
+  \*-----------------------------------*/
+
+.container {
+  padding-inline: 15px;
+}
+
+button,
+a {
+  transition: var(--transition);
+}
+
+.btn-1 {
+  position: relative;
+  background: var(--background, var(--manatee));
+  color: var(--color, var(--white));
+  min-width: var(--width, 40px);
+  min-height: var(--height, 40px);
+  padding: 5px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-14);
+  font-family: var(--ff-nunito);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-600);
+  overflow: hidden;
+}
+
+.btn ion-icon {
+  font-size: 22px;
+  --ionicon-stroke-width: 40px;
+}
+
+.btn-1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, hsla(0, 0%, 100%, 0.4), transparent);
+  opacity: 0;
+  pointer-events: none;
+  transition: var(--transition);
+}
+
+.btn-1:is(:hover, :focus) {
+  box-shadow: var(--shadow-2);
+}
+
+.btn-1:is(:hover, :focus)::before {
+  opacity: 1;
+}
+
+.section {
+  padding-block: var(--section-padding);
+}
+
+.h1,
+.h2,
+.h3 {
+  color: var(--space-cadet);
+  font-family: var(--ff-nunito);
+  line-height: 1.4;
+}
+
+.h1 {
+  font-size: var(--fs-1);
+  text-transform: uppercase;
+}
+
+.h2,
+.h3 {
+  font-weight: var(--fw-400);
+}
+
+.h2 {
+  font-size: var(--fs-2);
+}
+
+.h3 {
+  font-size: var(--fs-4);
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.header-actions .btn-1 span {
+  display: none;
+}
+
+.user-btn {
+  --color: var(--independence);
+  --background: var(--white);
+  --shadow-2: var(--shadow-1);
+  box-shadow: var(--shadow-1);
+}
+
+/*-----------------------------------*\
+    #BLOG
+  \*-----------------------------------*/
+
+.blog .section-title {
+  margin-bottom: 30px;
+}
+
+.blog-card {
+  background: var(--alice-blue-2);
+  border-radius: var(--radius-18);
+  border: 1px solid var(--white);
+  box-shadow: var(--shadow-1);
+  overflow: hidden;
+}
+
+.blog-card .card-banner {
+  aspect-ratio: 3 / 2;
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-card .card-banner a:first-child {
+  height: 100%;
+}
+
+.blog-card .card-banner img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog-card .card-badge {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  --height: 30px;
+  --width: 92px;
+}
+
+.blog-card .card-content {
+  padding: 20px;
+}
+
+.blog-card .card-title {
+  margin-bottom: 20px;
+}
+
+.blog-card .card-title > a {
+  color: inherit;
+}
+
+.blog-card .card-title > a:is(:hover, :focus) {
+  color: var(--carolina-blue);
+}
+
+.blog-card .card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-card :is(.publish-date, .comments) {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: var(--fs-6);
+  color: var(--independence);
+}
+
+.blog-card :is(.publish-date, .comments) ion-icon {
+  font-size: 15px;
+  --ionicon-stroke-width: 50px;
+}
+
+.blog .has-scrollbar {
+  display: flex;
+  gap: 20px;
+  scroll-snap-type: inline mandatory;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.blog .has-scrollbar > li {
+  flex-shrink: 0;
+  max-width: 330px;
+  width: 100%;
+  scroll-snap-align: start;
+}
+
+.has-scrollbar::-webkit-scrollbar-track {
+  background: var(--alice-blue-1);
+  outline: 2px solid var(--manatee);
+  border-radius: 10px;
+}
+
+.has-scrollbar::-webkit-scrollbar-thumb {
+  border-color: var(--alice-blue-1);
+  background: var(--manatee);
+  border-radius: 10px;
+}
+
+.has-scrollbar::-webkit-scrollbar-button {
+  width: calc(25% - 40px);
+}
